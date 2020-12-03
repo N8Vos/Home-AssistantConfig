@@ -1,0 +1,59 @@
+homeassistant:
+  # Name of the location where Home Assistant is running
+  name: Humboldt
+  # Location required to calculate the time the sun rises and sets
+  latitude: 26.93457
+  longitude: -82.33076
+  # Impacts weather/sunrise data (altitude above sea level in meters)
+  elevation: 2
+  # metric for Metric, imperial for Imperial
+  unit_system: imperial
+  # Pick yours from here: http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+  time_zone: America/New_York
+  # Customization file
+  customize: !include customize.yaml
+
+# Configure a default setup of Home Assistant (frontend, api, etc)
+default_config:
+
+# Uncomment this if you are using SSL/TLS, running in Docker container, etc.
+http:
+#  base_url: https://n8vos.duckdns.org:8123
+  ssl_certificate: /ssl/fullchain.pem
+  ssl_key: /ssl/privkey.pem
+
+
+# Sensors
+sensor:
+  # Weather prediction
+  #- platform: yr
+
+# Text to speech
+tts:
+  - platform: google_translate
+
+nest:
+  client_id: !secret nest_client_id
+  client_secret: !secret nest_client_secret
+  # "Project ID" in the Device Access Console
+  project_id: d12a0867-4614-4233-84f5-148afc830606
+  # Provide the full path exactly as shown under "Subscription name" in Google Cloud Console
+  subscriber_id: projects/authentic-wharf-239319/subscriptions/HumboldtHome
+  
+group: !include groups.yaml
+automation: !include automations.yaml
+script: !include scripts.yaml
+
+vera:
+  vera_controller_url: http://192.168.1.8:3480/
+  lights: [9, 34, 56, 59, 63, 64, 85, 86, 87, 88]
+  
+device_tracker:
+# Disabled because it looked like it was stopping reboots after upgrading 10.30.2018
+  - platform: ddwrt
+    host: 192.168.1.1
+    username: n8vos
+    password: !secret router_password
+    interval_seconds: 60
+    new_device_defaults:
+      track_new_devices: True

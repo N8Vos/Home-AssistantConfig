@@ -1,0 +1,19 @@
+switch.garage_door_opener_55:
+  icon: mdi:garage
+light.bedroom_fan_44:
+  icon: mdi:fan
+light.big_fan_54:
+  icon: mdi:fan
+switch.porch_fan_30:
+  icon: mdi:fan
+switch.smart_plug_14:
+  icon: mdi:power-plug
+switch.outdoorplug_57:
+  icon: mdi:power-plug
+switch.garage_plug_10:
+  icon: mdi:power-socket-us
+light.bedroom_2_light_63:
+  friendly_name: Dillon's Bedroom Light
+switch.porchfan_66:
+  friendly_name: Porch Fan
+  icon: mdi:fan

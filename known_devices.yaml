@@ -1,0 +1,427 @@
+
+NatePhone:
+  hide_if_away: false
+  icon:
+  mac: 60:B7:6E:09:5F:2C
+  name: NatePhone
+  track: true
+  hide_if_away: false
+  consider_home: 400
+
+KristinPhone:
+  name: KristinPhone
+  mac: B4:F7:A1:E3:55:F1
+  icon:
+  track: true
+  hide_if_away: false
+  consider_home: 400
+
+nest3:
+  hide_if_away: false
+  icon:
+  mac: 18:B4:30:D2:B3:3A
+  name: nest3
+  picture:
+  track: no
+
+GoogleHome:
+  hide_if_away: false
+  icon:
+  mac: F4:F5:D8:BB:E2:80
+  name: GoogleHome
+  picture:
+  track: no
+
+nest1:
+  hide_if_away: false
+  icon:
+  mac: 64:16:66:1F:95:1F
+  name: nest1
+  picture:
+  track: no
+
+Vizio47:
+  hide_if_away: false
+  icon:
+  mac: 00:6B:9E:A6:BF:FD
+  name: Vizio47
+  picture:
+  track: no
+
+VeraPlus:
+  hide_if_away: false
+  icon:
+  mac: 78:B2:13:DE:CC:22
+  name: VeraPlus
+  picture:
+  track: no
+
+Link10:
+  hide_if_away: false
+  icon:
+  mac: 40:9F:38:57:B0:6B
+  name: JBL link 10
+  picture:
+  track: no
+
+Link20:
+  hide_if_away: false
+  icon:
+  mac: 40:9F:38:88:0D:1B
+  name: JBL link 20
+  picture:
+  track: no
+
+nest2:
+  hide_if_away: false
+  icon:
+  mac: 18:B4:30:D0:00:37
+  name: nest2
+  picture:
+  track: no
+
+nexus7:
+  hide_if_away: false
+  icon:
+  mac: 30:5A:3A:8F:02:CD
+  name: Nexus7
+  picture:
+  track: true
+
+vizio55:
+  hide_if_away: false
+  icon:
+  mac: 00:6B:9E:1E:43:DA
+  name: Vizio55
+  picture:
+  track: no
+
+psvita:
+  hide_if_away: false
+  icon:
+  mac: D4:4B:5E:D1:5E:8A
+  name: PSVita
+  picture:
+  track: no
+
+nintendo3ds:
+  hide_if_away: false
+  icon:
+  mac: A4:C0:E1:66:41:F1
+  name: nintendo3ds
+  picture:
+  track: no
+
+nintendoswitchwifi:
+  hide_if_away: false
+  icon:
+  mac: 98:B6:E9:28:AE:B9
+  name: NintendoSwitchWifi
+  picture:
+  track: no
+
+google_mini:
+  hide_if_away: false
+  icon:
+  mac: E4:F0:42:55:52:D2
+  name: Google-Mini
+  picture:
+  track: no
+
+jasons_iphone:
+  hide_if_away: false
+  icon:
+  mac: 18:81:0E:54:3E:7C
+  name: Jasons-iPhone
+  picture:
+  track: no
+
+kitchendisplay:
+  hide_if_away: false
+  icon:
+  mac: 30:D1:6B:9E:D8:31
+  name: KitchenDisplay
+  picture:
+  track: no
+
+InsigClockRadio:
+  hide_if_away: false
+  icon:
+  mac: 50:1E:2D:14:17:1E
+  name: InsigClockRadio
+  picture:
+  track: no
+
+ipcam90:
+  hide_if_away: false
+  icon:
+  mac: EC:3D:FD:57:25:6F
+  name: ipcam90
+  picture:
+  track: no
+
+ipcam4:
+  hide_if_away: false
+  icon:
+  mac: EC:3D:FD:5D:4D:C4
+  name: IPcam4
+  picture:
+  track: no
+
+ipcam2:
+  hide_if_away: false
+  icon:
+  mac: EC:3D:FD:55:7E:90
+  name: IPcam2
+  picture:
+  track: no
+
+SallyPhone:
+  hide_if_away: false
+  icon:
+  mac: DC:74:A8:A7:35:24
+  name: SallyPhone
+  picture:
+  track: no
+
+dadiphone:
+  hide_if_away: false
+  icon:
+  mac: 8C:58:77:A0:DE:62
+  name: DadiPhone
+  picture:
+  track: no
+
+NateIpod:
+  hide_if_away: false
+  icon:
+  mac: F0:76:6F:06:C0:9D
+  name: Nate's Ipod
+  picture:
+  track: true
+
+viziolaptop:
+  hide_if_away: false
+  icon:
+  mac: 00:6B:9E:00:0F:AA
+  name: VizioLaptop
+  picture:
+  track: true
+
+lakka:
+  hide_if_away: false
+  icon:
+  mac: 80:C5:F2:96:3E:3F
+  name: Lakka
+  picture:
+  track: no
+
+LG_Dryer:
+  hide_if_away: false
+  icon:
+  mac: 00:51:ED:FC:C0:C3
+  name: LG Dryer
+  picture:
+  track: no
+
+LG_Washer:
+  hide_if_away: false
+  icon:
+  mac: 2C:2B:F9:CF:56:12
+  name: LG Washer
+  picture:
+  track: no
+
+NatesF-150:
+  hide_if_away: false
+  icon:
+  mac: 78:04:73:44:C2:BA
+  name: NatesF-150
+  picture:
+  track: true
+
+google_nest_mini:
+  hide_if_away: false
+  icon:
+  mac: F8:0F:F9:AB:6F:93
+  name: Google-Nest-Mini
+  picture:
+  track: no
+
+smokegateway:
+  hide_if_away: false
+  icon:
+  mac: 18:93:D7:3B:27:13
+  name: SmokeGateway
+  picture:
+  track: no
+
+808vl9676:
+  hide_if_away: false
+  icon:
+  mac: 68:EC:C5:B6:B2:0A
+  name: 808vl9676
+  picture:
+  track: true
+
+nates_ipadpro:
+  icon:
+  mac: 34:42:62:62:6A:83
+  name: Nates-iPadPro
+  picture:
+  track: true
+
+Stadiacontroller:
+  icon:
+  mac: F0:EF:86:16:9B:7A
+  name: Stadiacontroller
+  picture:
+  track: true
+
+LenovoSmartClock:
+  icon:
+  mac: 84:B8:B8:36:82:BD
+  name: 'Lenovo Smart Clock'
+  picture:
+  track: no
+
+AmazonFireTab7:
+  icon:
+  mac: CC:9E:A2:D2:A8:F6
+  name: AmazonFireTab7
+  picture:
+  track: true
+
+chromecastultra:
+  icon:
+  mac: 00:F6:20:62:FF:A1
+  name: ChromecastUltra
+  picture:
+  track: true
+
+android_27856c5262d43e6a:
+  icon:
+  mac: 94:DB:C9:EC:B4:4F
+  name: android-27856c5262d43e6a
+  picture:
+  track: true
+
+a8_1d_16_34_7e_b9:
+  icon:
+  mac: A8:1D:16:34:7E:B9
+  name: '*'
+  picture:
+  track: true
+
+e6_10_bf_ce_f7_1e:
+  icon:
+  mac: E6:10:BF:CE:F7:1E
+  name: '*'
+  picture:
+  track: true
+
+retropie:
+  icon:
+  mac: B8:27:EB:BD:A9:6F
+  name: retropie
+  picture:
+  track: true
+
+58_cb_52_7f_f4_dc:
+  icon:
+  mac: 58:CB:52:7F:F4:DC
+  name: '*'
+  picture:
+  track: true
+
+58_cb_52_50_13_2d:
+  icon:
+  mac: 58:CB:52:50:13:2D
+  name: '*'
+  picture:
+  track: true
+
+galaxy_s20_5g:
+  icon:
+  mac: 4E:D0:6D:48:9C:45
+  name: Galaxy-S20-5G
+  picture:
+  track: true
+
+ac_88_fd_63_14_93:
+  icon:
+  mac: AC:88:FD:63:14:93
+  name: ac_88_fd_63_14_93
+  picture:
+  track: true
+
+galaxy_s10:
+  icon:
+  mac: 3A:92:CF:81:EC:D3
+  name: Galaxy-S10
+  picture:
+  track: true
+
+e6_68_df_f5_bf_b9:
+  icon:
+  mac: E6:68:DF:F5:BF:B9
+  name: '*'
+  picture:
+  track: true
+
+f0_d7_aa_94_7c_1f:
+  icon:
+  mac: F0:D7:AA:94:7C:1F
+  name: '*'
+  picture:
+  track: true
+
+76_3c_eb_fe_d6_20:
+  icon:
+  mac: 76:3C:EB:FE:D6:20
+  name: '*'
+  picture:
+  track: true
+
+aa_db_71_b7_00_27:
+  icon:
+  mac: AA:DB:71:B7:00:27
+  name: '*'
+  picture:
+  track: true
+
+nates_ipadpro_2:
+  name: Nates-iPadPro
+  mac: 42:09:D7:33:5E:1A
+  icon:
+  picture:
+  track: true
+
+nates_ipadpro_3:
+  name: Nates-iPadPro
+  mac: CE:E2:DE:92:C0:65
+  icon:
+  picture:
+  track: true
+
+e6_4e_c0_5a_fe_66:
+  name: '*'
+  mac: E6:4E:C0:5A:FE:66
+  icon:
+  picture:
+  track: true
+
+ce_e9_85_2a_04_d6:
+  name: '*'
+  mac: CE:E9:85:2A:04:D6
+  icon:
+  picture:
+  track: true
+
+
+wled_wled:
+  name: wled-WLED
+  mac: 40:F5:20:33:6B:26
+  icon:
+  picture:
+  track: true
